@@ -4,7 +4,7 @@ dailMaximum = 99
 currentNumber = dailStart
 countZero = 0 # number how often the dial is pointed at 0
 
-with open("input.txt") as file:
+with open("day1/input.txt") as file:
     while line := file.readline(): # for every line in the file
         print("line: ", line.rstrip())
 
